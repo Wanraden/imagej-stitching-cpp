@@ -181,5 +181,14 @@
     <ClInclude Include="awt\ImageConsumer.h">
       <Filter>头文件\awt</Filter>
     </ClInclude>
+    <ClInclude Include="awt\Transparency.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ColorModel.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ColorSpace.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

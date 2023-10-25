@@ -167,11 +167,14 @@
     <None Include="Test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="awt\ColorModel.h" />
+    <ClInclude Include="awt\ColorSpace.h" />
     <ClInclude Include="awt\Image.h" />
     <ClInclude Include="awt\ImageCapabilities.h" />
     <ClInclude Include="awt\ImageConsumer.h" />
     <ClInclude Include="awt\ImageObserver.h" />
     <ClInclude Include="awt\ImageProducer.h" />
+    <ClInclude Include="awt\Transparency.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="ij\ImagePlus.h" />
     <ClInclude Include="ij\Measurements.h" />

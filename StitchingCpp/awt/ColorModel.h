@@ -18,15 +18,15 @@ protected:
     bool isAlphaPremultiplied = false;
     int numComponents = -1;
     int numColorComponents = -1;
-    ColorSpace colorSpace = ColorSpace.getInstance(ColorSpace.CS_sRGB);
-    int colorSpaceType = ColorSpace.TYPE_RGB;
+    ColorSpace *colorSpace = ColorSpace::getInstance(ColorSpace::CS_sRGB);
+    int colorSpaceType = ColorSpace::TYPE_RGB;
     int maxBits;
     bool is_sRGB = true;
 
     /**
      * Data type of the array used to represent pixel values.
      */
-    protected int transferType;
+    int transferType;
 
     /**
      * This is copied from java.awt.Toolkit since we need the library
@@ -52,7 +52,8 @@ protected:
      * For now, we know it's done by the implementation, and we assume
      * that the name of the library is "awt".  -br.
      */
-    private static bool loaded = false;
+private:
+    static bool loaded = false;
     static void loadLibraries() {
         if (!loaded) {
             java.security.AccessController.doPrivileged(
