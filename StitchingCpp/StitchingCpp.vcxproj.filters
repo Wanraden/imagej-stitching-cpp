@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\plugin">
+      <UniqueIdentifier>{2bf577de-ae60-4a70-b790-ae7566f18dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\stitching">
+      <UniqueIdentifier>{07268998-1d75-4e78-83f6-22c52ecb6e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\stitching\utils">
+      <UniqueIdentifier>{15592727-e5a4-4bd5-a4ac-e8177d103a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mpicbg">
+      <UniqueIdentifier>{7315ba93-8cfe-422e-a643-a8f9a358cba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mpicbg\stitching">
+      <UniqueIdentifier>{fe7a5118-5215-4cb4-b4b9-0d3b94456cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mpicbg\stitching\fusion">
+      <UniqueIdentifier>{88019dae-04cf-490b-9244-8c488b19f6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{4a7adec6-592e-4775-be2a-16c8658053eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mpicbg\model">
+      <UniqueIdentifier>{a9da91d4-5eaf-4b14-b924-dcd9130771e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ij">
+      <UniqueIdentifier>{b36f5b0e-a503-4d17-bfd3-26ba01e37a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\awt">
+      <UniqueIdentifier>{05d4cb88-4392-4f07-a346-fa039329b982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StitchingCpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImagjStitching.h">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Test.h">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="stitching\utils\CompositeImageFixer.h">
+      <Filter>头文件\stitching\utils</Filter>
+    </None>
+    <None Include="stitching\utils\Log.h">
+      <Filter>头文件\stitching\utils</Filter>
+    </None>
+    <None Include="plugin\Stitching_Grid.h">
+      <Filter>头文件\plugin</Filter>
+    </None>
+    <None Include="mpicbg\stitching\StitchingParameters.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\CollectionStitchingImgLib.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\ComparePair.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\GlobalOptimization.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\ImageCollectionElement.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\ImagePlusTimePoint.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\PairWiseStitchingImgLib.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\PairWiseStitchingResult.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\Peak.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\PointMatchStitching.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\TextFileAccess.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\TileConfigurationStitching.h">
+      <Filter>头文件\mpicbg\stitching</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\AveragePixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\AveragePixelFusionIgnoreZero.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\BlendingPixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\BlendingPixelFusionIgnoreZero.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\ClassifiedRegion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\Fusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\ImageInterpolation.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\Interval.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MaxPixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MaxPixelFusionIgnoreZero.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MedianPixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MedianPixelFusionIgnoreZero.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MinPixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\MinPixelFusionIgnoreZero.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\OverlapFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\OverlayFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+    <None Include="mpicbg\stitching\fusion\PixelFusion.h">
+      <Filter>头文件\mpicbg\stitching\fusion</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\timehelper.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ij\ImagePlus.h">
+      <Filter>头文件\ij</Filter>
+    </ClInclude>
+    <ClInclude Include="ij\Measurements.h">
+      <Filter>头文件\ij</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\Image.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ImageCapabilities.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ImageObserver.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ImageProducer.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+    <ClInclude Include="awt\ImageConsumer.h">
+      <Filter>头文件\awt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
